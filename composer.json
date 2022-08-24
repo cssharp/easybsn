@@ -1,0 +1,22 @@
+{
+    "name": "easybsn",
+    "description": "快速接入bsn",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "nick",
+            "email": "endoucai@gmail.com",
+            "wechat": "cai9503"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Easybsn\\": "src/"
+        }
+    }
+}
