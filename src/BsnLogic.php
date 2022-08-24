@@ -1,12 +1,12 @@
 <?php
 
 
-namespace EasyBsnComposer;
+namespace Easybsn;
 
 /**
  * BSN 接口
  * Class BsnLogic
- * @package EasyBsnComposer
+ * @package Easybsn
  */
 class BsnLogic
 {

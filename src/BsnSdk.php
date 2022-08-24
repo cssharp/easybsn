@@ -1,7 +1,7 @@
 <?php
 
 
-namespace EasyBsnComposer;
+namespace Easybsn;
 
 
 class BaseSdk
