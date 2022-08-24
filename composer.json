@@ -1,5 +1,5 @@
 {
-    "name": "easybsn",
+    "name": "nick/easybsn",
     "description": "快速接入bsn",
     "type": "composer-plugin",
     "authors": [
