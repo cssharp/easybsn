@@ -1,7 +1,7 @@
 {
     "name": "cssharp/easybsn",
     "description": "快速接入bsn",
-    "type": "composer-plugin",
+    "type": "library",
     "authors": [
         {
             "name": "endoucai",
