@@ -1,10 +1,10 @@
 {
-    "name": "nick/easybsn",
+    "name": "cssharp/easybsn",
     "description": "快速接入bsn",
     "type": "composer-plugin",
     "authors": [
         {
-            "name": "nick",
+            "name": "endoucai",
             "email": "endoucai@gmail.com",
             "wechat": "cai9503"
         }
