@@ -2,27 +2,11 @@
 
 declare(strict_types=1);
 
-namespace EasyBsnComposer;
+use Easybsn\BsnLogic;
 
-use EasyBsnComposer\BsnLogic;
+$obj = new BsnLogic();
+$rt = $obj->createAccount("nick");
+var_dump($rt);
 
-class Demo
-{
-    private $vendorPath;
-    private $manifestPath;
 
-    public function testUnlink()
-    {
-        //创建账号
-        $res = BsnLogic::getInstance()->createAccount("hello");
-    }
-
-    public function __construct()
-    {
-        echo "hello";
-        $this->testUnlink();
-    }
-}
-
-$d = new Demo();
 

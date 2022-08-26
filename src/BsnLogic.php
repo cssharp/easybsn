@@ -2,6 +2,7 @@
 
 
 namespace Easybsn;
+require __DIR__.'/BsnSdk.php';
 
 /**
  * BSN 接口
