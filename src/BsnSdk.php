@@ -43,11 +43,12 @@ class BaseSdk
     /**
      * @return BaseQuery
      */
-    public static function getInstance()
+    public static function getInstance($apiKey, $apiSecret)
     {
+        self::$apiKey = $apiKey;
+        self::$apiSecret = $apiSecret;
         return new self();
     }
-
 
     /**
      *

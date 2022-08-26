@@ -19,18 +19,9 @@ class BsnLogic
     /**
      * BsnLogic constructor.
      */
-    public function __construct()
+    public function __construct($apiKey, $apiSecret)
     {
-        $this->query = BaseSdk::getInstance();
-    }
-
-    /**
-     * 获取当前实例
-     * @return BsnLogic
-     */
-    public static function getInstance()
-    {
-        return new self();
+        $this->query = BaseSdk::getInstance($apiKey, $apiSecret);
     }
 
     /**
